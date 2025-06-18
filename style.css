@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #ee4d2d; /* màu đỏ */
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.user-actions div {
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.user-actions a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+.main-menu {
+  background-color: #f53d2d; /* màu đỏ */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.main-menu ul {
+  list-style: none; /* bỏ dấu chấm */
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+.main-menu ul li {
+  margin: 0 15px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.main-menu ul li a:hover {
+  color: yellow; /* rê chuột đổi màu */
+}
+.sidebar {
+  margin-left: 25px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.sidebar h3 {
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.sidebar li a {
+  text-decoration: none;
+}
+.sidebar li:hover {
+  background-color: #f7f7f7;
+}
+
+.sidebar li::after {
+  content: "›";
+  float: right;
+  color: #888;
+}

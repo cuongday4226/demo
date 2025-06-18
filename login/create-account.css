@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  background-image: url("https://treobangron.com.vn/wp-content/uploads/2022/09/background-dep-12-1.jpg"); /* đường dẫn ảnh */
+  background-size: cover; /* phủ kín màn hình */
+  background-position: center; /* canh giữa */
+  background-repeat: no-repeat; /* không lặp lại */
+}
+.create-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+.create-box div a button {
+  padding: 10px 20px;
+  margin: 8px 4px;
+  border: none;
+  border-radius: 6px;
+  background-color: #af7a4c;
+  color: white;
+  cursor: pointer;
+}
+.create-box div a button:hover {
+  background-color: rgba(255, 196, 0, 0.667);
+}
+input[type="text"],
+input[type="password-test"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
